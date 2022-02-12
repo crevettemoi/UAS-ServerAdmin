@@ -20,7 +20,7 @@
     <title>Trucorp</title>
 </head>
 <body>
-    <h1>WELCOME</h1>
+    <h1>WELCOME to Trucorp</h1>
     <table border="1">
         <tr>
             <th>ID</th>
