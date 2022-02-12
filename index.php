@@ -20,7 +20,6 @@
     <title>Trucorp</title>
 </head>
 <body>
-    <h1>WELCOME</h1>
     <table border="1">
         <tr>
             <th>ID</th>
@@ -28,14 +27,17 @@
             <th>Alamat</th>
             <th>Jabatan</th>
         </tr>
+        <?php $i=0?>
         <?php foreach($rows as $row): ?>
         <tr>
             <td><?php echo $row["ID"] ?></td>
             <td><?php echo $row["Nama"] ?></td>
             <td><?php echo $row["Alamat"] ?></td>
             <td><?php echo $row["Jabatan"] ?></td>
+            <?php $i+=1?>
         </tr>
         <?php endforeach; ?>
+        <?php echo "Total jumlah user: " . $i;?>
     </table>
 </body>
 </html>
