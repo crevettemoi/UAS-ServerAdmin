@@ -37,7 +37,7 @@
             <?php $i+=1?>
         </tr>
         <?php endforeach; ?>
-        <?php echo "Total jumlah user: " . $i;?>
     </table>
+    <?php echo "Total jumlah user: " . $i;?>
 </body>
 </html>
